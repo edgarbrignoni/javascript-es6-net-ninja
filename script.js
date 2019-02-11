@@ -1,8 +1,10 @@
 // JavaScript File
 window.onload = function(){
-    var x = 10;
-    if(x > 5){
-        let x = 5;
-        console.log("inside: " + x);
-    }
+  const pi = 3.142;
+  function calcArea(r){
+    const pi = 10;
+    console.log("The area is: " + pi * r * r);
+  }
+  console.log(pi);
+  calcArea(5);
 };
