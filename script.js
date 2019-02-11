@@ -5,5 +5,4 @@ window.onload = function(){
         let x = 5;
         console.log("inside: " + x);
     }
-    
-}
+};
